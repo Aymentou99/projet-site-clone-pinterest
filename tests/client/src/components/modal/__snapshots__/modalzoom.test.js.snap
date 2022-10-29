@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The pin zoom modal will render 1`] = `
+<Fragment>
+  <div
+    className="modal-overlay"
+  />
+  <ForwardRef(Card)
+    className="zoom cshow"
+    sx={
+      Object {
+        "top": 10,
+        "width": "90%",
+      }
+    }
+  >
+    <ForwardRef(CardHeader)
+      action={
+        <React.Fragment>
+          <GetAction
+            deletePin={null}
+            element={
+              Object {
+                "_id": 1,
+                "createdAt": "2020-12-25T00:00:00.000+00:00",
+                "hasSaved": false,
+                "imgDescription": "imgDescription id-1",
+                "imgLink": "imgLink id-1",
+                "owner": "owner id-1",
+                "owns": false,
+                "savedBy": Array [
+                  "savedBy - id-1",
+                  "savedBy2 - id-1",
+                ],
+              }
+            }
+            pinImage={[MockFunction]}
+          />
+          <Styled(ForwardRef(Badge))
+            badgeContent={2}
+            color="secondary"
+            showZero={true}
+          >
+            <ForwardRef(Tooltip)
+              title="savedBy - id-1, savedBy2 - id-1"
+            >
+              <Memo
+                style={
+                  Object {
+                    "fontSize": undefined,
+                  }
+                }
+              />
+            </ForwardRef(Tooltip)>
+          </Styled(ForwardRef(Badge))>
+        </React.Fragment>
+      }
+      subheader={
+        <React.Fragment>
+          <span>
+            owner id-1
+          </span>
+          <br />
+          <span
+            style={
+              Object {
+                "fontSize": undefined,
+                "marginLeft": 0,
+              }
+            }
+          >
+            25 Dec 2020
+          </span>
+        </React.Fragment>
+      }
+      subheaderTypographyProps={
+        Object {
+          "fontSize": undefined,
+          "fontWeight": "bold",
+        }
+      }
+      title="imgDescription ..."
+      titleTypographyProps={
+        Object {
+          "fontSize": undefined,
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <ForwardRef(CardMedia)
+      component="img"
+      id="pin-zoom"
+      image="imgLink id-1"
+      onLoad={[Function]}
+    />
+  </ForwardRef(Card)>
+</Fragment>
+`;

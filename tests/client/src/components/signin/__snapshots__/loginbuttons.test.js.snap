@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The sign in component will render 1`] = `
+<Fragment>
+  <ForwardRef(Button)
+    id="guestbutton"
+    onClick={[Function]}
+    startIcon={
+      <Memo
+        style={
+          Object {
+            "fontSize": 25,
+          }
+        }
+      />
+    }
+    variant="outlined"
+  >
+    Continue As Guest        
+  </ForwardRef(Button)>
+  <ForwardRef(Button)
+    id="twitterloginbutton"
+    onClick={[Function]}
+    startIcon={
+      <Memo
+        style={
+          Object {
+            "fontSize": 25,
+          }
+        }
+      />
+    }
+    variant="outlined"
+  >
+    Continue With Twitter
+  </ForwardRef(Button)>
+  <ForwardRef(Button)
+    id="googleloginbutton"
+    onClick={[Function]}
+    startIcon={
+      <Memo
+        style={
+          Object {
+            "fontSize": 25,
+          }
+        }
+      />
+    }
+    variant="outlined"
+  >
+    Continue With Google
+  </ForwardRef(Button)>
+</Fragment>
+`;
